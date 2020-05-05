@@ -1,0 +1,29 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xylt?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    view:
+      prefix:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+
+logging:
+  level:
+    root: info
+    com.lrm: debug
+  file:
+    name: log/log.log
+
+user.userAvatar: /images/moren.jpg

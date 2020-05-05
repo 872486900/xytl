@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="admin/_fragments::head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户管理</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../../static/css/me.css">
+</head>
+<body>
+
+
+<!--导航-->
+<nav th:replace="admin/_fragments :: menu(4)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+</nav>
+<div class="ui attached pointing menu">
+    <div class="ui container">
+        <div class="right menu">
+            <a href="#" class="teal active item">列表</a>
+        </div>
+    </div>
+</div>
+
+
+<!--中间内容-->
+<div class="m-container-small m-padded-tb-big">
+    <div class="ui container">
+
+        <div class="ui success message" th:unless="${#strings.isEmpty(message)}">
+            <i class="close icon"></i>
+            <div class="header">提示：</div>
+            <p th:text="${message}">恭喜，操作成功！</p>
+        </div>
+        <div id="table-container">
+            <table th:fragment="aritcleList" class="ui fixed table" >
+                <h1>用户管理</h1>
+                <thead>
+                <tr>
+                    <th></th>
+                    <th colspan="2">用户邮箱</th>
+                    <th colspan="2">昵称</th>
+                    <th colspan="2">性别</th>
+                    <th colspan="2">电话</th>
+                    <th colspan="2">头像</th>
+                    <th colspan="2">个性签名</th>
+                    <th colspan="2">更新时间</th>
+                    <th colspan="2">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="user,iterStat:${page.content}">
+                    <th align="center" th:text="${iterStat.count}">1</th>
+                    <th align="center" th:text="${user.userEmail}" colspan="2">872486900@qq.ocm</th>
+                    <th align="center" th:text="${user.userName}" colspan="2">昵称</th>
+                    <th align="center" th:text="${user.userSex}" colspan="2">性别</th>
+                    <th align="center" th:text="${user.userPhone}" colspan="2">13727656936</th>
+                    <th colspan="2"><img th:src="${user.userAvatar}" src="../../static/images/user1.jpg" width="70%"></th>
+                    <th align="center" colspan="2" th:text="${user.userShow}">个性签名</th>
+                    <th align="center" colspan="2" th:text="${user.userTime}">2029:11:11</th>
+                    <th  align="center" colspan="2">
+                        <a href="#" class="ui mini teal basic button" th:href="@{/admin/users/{userId}(userId=${user.userId})}">发布的帖子</a>
+                        <a href="#" class="ui mini red basic button" th:href="@{/admin/users/{userId}/delete(userId=${user.userId})}">删除</a>
+                    </th>
+                </tr>
+
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th colspan="17">
+                        <!--<div class="ui mini pagination menu" th:if="${page.totalPages}>1">-->
+                            <!--<a onclick="page(this)" th:attr="data-page=${page.number}-1" class="item"-->
+                               <!--th:unless="${page.first}">上一页</a>-->
+                            <!--<a onclick="page(this)" th:attr="data-page=${page.number}+1" class=" item"-->
+                               <!--th:unless="${page.last}">下一页</a>-->
+                        <!--</div>-->
+                        <div class="ui mini pagination menu" th:if="${page.totalPages}>1">
+                            <a th:href="@{/admin/users(page=${page.number}-1)}" class=" item"
+                               th:unless="${page.first}">上一页</a>
+                            <a th:href="@{/admin/users(page=${page.number}+1)}" class=" item"
+                               th:unless="${page.last}">下一页</a>
+                        </div>
+                    </th>
+                </tr>
+                </tfoot>
+            </table>
+
+
+
+        </div>
+
+    </div>
+</div>
+
+<br>
+<br>
+<!--底部footer-->
+<footer th:replace="admin/_fragments :: footer" class="ui inverted vertical segment">
+</footer>
+<!--/*/<th:block th:replace="admin/_fragments :: script">/*/-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+<!--/*/</th:block>/*/-->
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    $('.ui.dropdown').dropdown({
+        on: 'hover'
+    });
+
+    //消息提示关闭初始化
+    $('.message .close')
+        .on('click', function () {
+            $(this)
+                .closest('.message')
+                .transition('fade');
+        });
+
+    $('#clear-btn')
+        .on('click', function () {
+            $('.ui.type.dropdown')
+                .dropdown('clear')
+            ;
+        })
+    ;
+
+    function page(obj) {
+        $("[name='page']").val($(obj).data("page"));
+        loaddata();
+    }
+
+    $("#search-btn").click(function () {
+        $("[name='page']").val(0);
+        loaddata();
+    });
+
+    function loaddata() {
+        $("#table-container").load(/*[[@{/admin/aritcles/search}]]*/"/admin/aritcles/search", {
+            title: $("[name='title']").val(),
+            typeId: $("[name='typeId']").val().prop('checked'),
+            page: $("[name='page']").val()
+        });
+    }
+
+</script>
+</body>
+</html>

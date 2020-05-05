@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="../static/dist/semantic/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+</head>
+<body>
+<nav th:replace="_fragments :: menu(1)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+</nav>
+
+<br>
+<br>
+<br>
+<div class="m-container-small m-padded-tb-massive" style="max-width: 30em !important;">
+    <div class="ur container">
+        <div class="ui middle aligned center aligned grid">
+            <div class="column">
+                <div class="ui container">
+                    <div th:unless="${#strings.isEmpty(message)}" class="ui success message">
+                        <i class="close icon"></i>
+                        <div class="header">提示：</div>
+                        <!--/*@thymesVar id="messages" type=""*/-->
+                        <p th:text="${message}">恭喜，操作成功</p>
+                    </div>
+                </div>
+                <h2 class="ui teal image header">
+                    <div class="content">
+                        用户注册
+                    </div>
+                </h2>
+                <form class="ui large form" method="post" action="#" th:action="@{/user/regist}">
+                    <div class="ui  segment">
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="envelope icon"></i>
+                                <input type="text" name="userEmail" placeholder="请输入注册邮箱">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="lock icon"></i>
+                                <input type="password" name="userPassword" placeholder="请输入注册密码">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="userName" placeholder="请输入注册昵称">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui form">
+                                <div class="inline fields">
+                                    <label>选择性别</label>
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input type="radio" name="userSex" checked="checked" value="男">
+                                            <label>男</label>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <div class="ui radio checkbox">
+                                            <input type="radio" name="userSex" value="女">
+                                            <label>女</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui left icon input">
+                                    <i class="phone icon"></i>
+                                    <input type="text" name="userPhone" placeholder="请输入手机号">
+                                </div>
+                            </div>
+                            <button class="ui fluid large teal submit button">登 录</button>
+                        </div>
+
+                        <div class="ui error mini message"></div>
+                        <div class="ui mini negative message" th:unless="${#strings.isEmpty(message)}"
+                             th:text="${message}">用户名和密码错误
+                        </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+
+<!--底部footer-->
+<footer th:replace="_fragments :: footer" class="ui inverted vertical segment">
+</footer>
+
+<!--/*/<th:block th:replace="_fragments :: script">/*/-->
+<script src="../static/dist/jquery/jquery-3.4.1.min.js"></script>
+<script src="../static/dist/semantic/semantic.min.js"></script>
+<!--/*/</th:block>/*/-->
+
+<script>
+    $('.ui.form').form({
+        fields: {
+            userEmail: {
+                identifier: 'userEmail',
+                rules: [{
+                    type: 'email',
+                    prompt: '请输入正确的邮箱地址'
+                }],
+
+            },
+            usePassword: {
+                identifier: 'usePassword',
+                rules: [{
+                    type: 'empty',
+                    prompt: '请输入密码'
+                }]
+            },
+            userName: {
+                identifier: 'userName',
+                rules: [{
+                    type: 'empty',
+                    prompt: '请输入昵称'
+                }]
+            },
+            userPhone: {
+                identifier: 'userPhone',
+                rules: [{
+                    type: 'empty',
+                    prompt: '请输入手机号'
+                }]
+            },
+
+        }
+    });
+</script>
+
+</body>
+</html>

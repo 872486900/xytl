@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的基本信息</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+</head>
+<body>
+
+<!--导航-->
+<nav th:replace="_fragments :: menu(1)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" class=" m-item item m-mobile-hide"><i class="mini home icon"></i>首页</a>
+            <a href="#" class=" m-item item m-mobile-hide"><i class="mini idea icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>归档</a>
+            <a href="#" class="active m-item item m-mobile-hide"><i class="mini info icon"></i>关于我</a>
+            <div class="right m-item item m-mobile-hide">
+                <div class="ui icon inverted transparent input m-margin-tb-tiny">
+                    <input type="text" placeholder="Search....">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+<!--中间内容-->
+<div class="m-container m-padded-tb-big">
+    <div class="ui grid">
+        <div class="four wide column">
+            <div class="ui vertical fluid tabular menu  ">
+                <a class="active item" th:href="@{/user/about}">我的基本信息</a>
+                <a class="item" th:href="@{/user/myAritcle/{userId}(userId=*{session.user.userId})}">我的帖子</a>
+                <a class="item" th:href="@{/user/logout}">退出登录</a>
+            </div>
+        </div>
+        <div class="twelve wide stretched column">
+            <div class="ur container">
+                <div class="ui segment">
+                    <div style="max-width: 30em !important;">
+                        <form class="ui large form" method="post" action="#"
+                              th:action="@{/user/about/{userId}(userId=*{userId})}" th:object="${user}">
+                            <div class="ui  segment">
+                                <input type="hidden" name="useId" th:value="*{userId}">
+                                <input type="hidden" name="userEmail" th:value="*{userEmail}">
+                                <div class="field">
+                                    <div class="ui left icon">
+                                        <i class="envelope icon"> </i>
+                                        <label>
+                            <span type="disabled" name="userEmail" th:value="*{userEmail}" th:text="*{userEmail}">
+                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <div class="ui left icon input">
+                                        <i class="user icon"></i>
+                                        <input type="text" name="userName" th:value="*{userName}" placeholder="请输入昵称">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="ui left icon input">
+                                        <i class="lock icon"></i>
+                                        <input type="password" name="userPassword" th:value="*{userPassword}"
+                                               placeholder="请输入密码">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="ui form">
+                                        <div class="inline fields">
+                                            <label>性别:</label>
+                                            <div class="field">
+                                                <div class="ui radio checkbox">
+                                                    <input type="radio" name="userSex"
+                                                           th:checked="*{userSex=='男'}?checked" value="男">
+                                                    <label>男</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui radio checkbox">
+                                                    <input type="radio" name="userSex"
+                                                           th:checked="*{userSex=='女'}?checked" value="女">
+                                                    <label>女</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <div class="ui left icon input">
+                                            <i class="phone icon"></i>
+                                            <input type="text" name="userPhone" th:value="*{userPhone}"
+                                                   placeholder="请输入手机号">
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        个性签名:
+                                        <div class="ui left icon input">
+                                            <input type="text" name="userShow" th:value="*{userShow}"
+                                                   placeholder="请输入个性签名">
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        更改头像:
+                                        <div class="ui left icon input">
+                                            <input type="hidden" id="img_url">
+                                            <input type="file" onchange="showImg()" id="userAvatar" name="userAvatar">
+                                            <img src="" alt="" id="img_id" style="width: 100px" th:src="*{userAvatar}">
+                                        </div>
+                                    </div>
+
+                                    <button class="ui fluid large teal submit button">修改信息</button>
+                                </div>
+
+                                <div class="ui error mini message"></div>
+                                <div class="ui mini negative message" th:unless="${#strings.isEmpty(message)}"
+                                     th:text="${message}">用户名和密码错误
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<!--底部footer-->
+<footer th:replace="_fragments :: footer" class="ui inverted vertical segment">
+</footer>
+
+<!--/*/<th:block th:replace="_fragments :: script">/*/-->
+<script src="../static/dist/jquery/jquery-3.4.1.min.js"></script>
+<script src="../static/dist/semantic/semantic.min.js"></script>
+<!--/*/</th:block>/*/-->
+
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    $('.wechat').popup({
+        popup: $('.wechat-qr'),
+        position: 'bottom center'
+    });
+    $('.qq').popup();
+
+    function showImg() {
+        // var img_file =  $("#img_file").val();
+        var file = document.getElementById('userAvatar').files[0];
+        var re = new FileReader();
+        re.readAsDataURL(file);
+        re.onload = function (re) {
+            $('#img_id').attr("src", re.target.result);
+        }
+    }
+</script>
+</body>
+</html>
