@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73706714-e374-4ec3-a9e1-f46d67f20847" name="Default Changelist" comment="" />
+    <list default="true" id="73706714-e374-4ec3-a9e1-f46d67f20847" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/信息.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/分类+标签.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/我的发布.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/文章详情.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/登录.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/管理员.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/首页.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +52,22 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/TypeShowController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/domain/Type.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/service/Impl/TypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/domain/Tag.java" />
@@ -152,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/interceptor/WebConfig.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -190,11 +216,11 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="682" />
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="681" />
+    <option name="y" value="21" />
     <option name="width" value="1195" />
-    <option name="height" value="1003" />
+    <option name="height" value="1004" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -216,12 +242,63 @@
               <item name="xylt" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xylt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xylt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xylt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xylt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xylt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xylt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Screenshot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xylt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +310,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588662281810" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588688705795" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -243,14 +320,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IDEADemo\xylt\src\main\resources" />
-      <recent name="E:\IDEADemo\xylt\src\main\java\com\lzx\xylt" />
-      <recent name="E:\IDEADemo\xylt\src\main\java\com\lzx" />
-      <recent name="E:\IDEADemo\xylt\src\main\java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEADemo\xylt\src\main\resources\static\images" />
+      <recent name="E:\IDEADemo\xylt\src\main\resources\templates" />
+      <recent name="E:\IDEADemo\xylt\src\main\resources\static\lib\tocbot" />
+      <recent name="E:\IDEADemo\xylt\src\main\resources\static\lib\waypoints" />
+      <recent name="E:\IDEADemo\xylt\src\main\resources\templates\admin" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lzx.xylt.domain" />
@@ -259,12 +337,11 @@
       <recent name="com.lzx.xylt.web" />
       <recent name="com.lzx.xylt" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEADemo\xylt\src\main\resources\static\images" />
-      <recent name="E:\IDEADemo\xylt\src\main\resources\templates" />
-      <recent name="E:\IDEADemo\xylt\src\main\resources\static\lib\tocbot" />
-      <recent name="E:\IDEADemo\xylt\src\main\resources\static\lib\waypoints" />
-      <recent name="E:\IDEADemo\xylt\src\main\resources\templates\admin" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEADemo\xylt\src\main\resources" />
+      <recent name="E:\IDEADemo\xylt\src\main\java\com\lzx\xylt" />
+      <recent name="E:\IDEADemo\xylt\src\main\java\com\lzx" />
+      <recent name="E:\IDEADemo\xylt\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,12 +385,13 @@
       <workItem from="1588521604761" duration="3784000" />
       <workItem from="1588559282879" duration="40211000" />
       <workItem from="1588656160939" duration="6647000" />
-      <workItem from="1588687076934" duration="279000" />
+      <workItem from="1588687076934" duration="1619000" />
+      <workItem from="1588688833552" duration="373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148853000" />
+    <option name="totallyTimeSpent" value="150566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,9 +403,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="546" y="18" width="956" height="802" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3975501" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -337,18 +416,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32390383" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.27439886" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.23880596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32985073" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3283582" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50402147" side_tool="true" weight="0.27157003" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49893618" weight="0.3069307" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49893618" weight="0.30597016" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32985073" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -372,20 +451,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="102" column="76" selection-start-line="102" selection-start-column="76" selection-end-line="102" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="95" column="78" selection-start-line="95" selection-start-column="78" selection-end-line="95" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -658,6 +723,21 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/Screenshot/信息.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
