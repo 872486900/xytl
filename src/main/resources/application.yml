@@ -25,5 +25,4 @@ logging:
     com.lrm: debug
   file:
     name: log/log.log
-
 user.userAvatar: /images/moren.jpg

@@ -3,7 +3,7 @@
 <head th:fragment="head(title)">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title th:replace="${title}">校园交流平台</title>
+    <title th:replace="${title}">校园论坛</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
     <link rel="stylesheet" href="../static/css/typo.css" th:href="@{/css/typo.css}">
     <link rel="stylesheet" href="../static/css/animate.css" th:href="@{/css/animate.css}">
@@ -15,10 +15,10 @@
 
 
 <!--导航-->
-<nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+<nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" style="background-color: #4f7e6c">
     <div class="ui container">
         <div class="ui inverted secondary stackable menu">
-            <h2 class="ui teal header item">校园交流平台</h2>
+            <h2 class="ui teal header item">校园论坛</h2>
             <a href="#" th:href="@{/}" class="m-item item m-mobile-hide " th:classappend="${n==1} ? 'active'"><i
                     class="mini home icon"></i>首页</a>
             <a href="#" th:href="@{/types/-1}" class="m-item item m-mobile-hide" th:classappend="${n==2} ? 'active'"><i
@@ -85,6 +85,7 @@
     <script>
         $('#newblog-container').load(/*[[@{/footer/newblog}]]*/"/footer/newblog");
     </script>
+
 </th:block>
 
 <script>

@@ -1,0 +1,16 @@
+GET http://localhost:8080/resources?=
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-06-17T044957.404.json
+
+###
+
+GET http://localhost:8080/resources?=
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-06-17T044951.404.json
+
+###
+

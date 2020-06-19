@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../static/dist/semantic/semantic.min.css">
     <link rel="stylesheet" href="../static/css/me.css">
 </head>
-<body>
+<body background="/images/9.jpg">
 
 <!--导航-->
 <nav th:replace="_fragments :: menu(1)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
@@ -21,7 +21,10 @@
             <div class="eleven wide column">
                 <div class="ui top attached segment">
                     <div class="ui middle aligned two column grid">
-                        <img src="../static/images/moren.jpg" alt="">
+                        <a href="https://www.xhsysu.edu.cn/">
+                            <img src="/images/1.jpg" alt="" style="width: 650px;height: 200px">
+                        </a>
+
                     </div>
                 </div>
                 <!--header-->
@@ -39,7 +42,7 @@
                 <!--content-->
                 <div class="ui attached  segment">
 
-                    <div class="ui padded vertical segment m-padded-tb-large" th:each="aritcle:${page.content}">
+                    <div class="ui padded vertical segment m-padded-tb-large " th:each="aritcle:${page.content}">
                         <div class="ui mobile reversed stackable grid">
                             <div class="eleven wide column" >
                                 <h3 class="ui header" th:text="${aritcle.title}">你真的理解什么是财富自由吗？</h3>
@@ -94,6 +97,30 @@
             <!--右边的top-->
             <div class="five wide column">
 
+                <!--最新推荐-->
+                <div class="ui segments m-margin-top-large">
+                    <div class="ui secondary segment">
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <i class="tags icon"></i>学校网站
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui teal segment">
+                        <div class="ui fluid vertical menu" >
+                            <a  href="https://www.xhsysu.edu.cn/"  target="_blank" class="item" >
+                                <span >学校官网</span>
+                            </a>
+                        </div>
+                        <div class="ui fluid vertical menu" >
+                            <a  href="http://jw.xhsysu.cn/"  target="_blank" class="item" >
+                                <span >正方教务平台</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
                 <!--分类-->
                 <div class="ui segments">
                     <div class="ui secondary segment">
@@ -136,7 +163,7 @@
                 </div>
 
 
-                <!--最新推荐-->
+
 
 
 

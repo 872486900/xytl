@@ -1,7 +1,12 @@
-body {
-    background: url("../images/BJ.jpg");
-}
 
+body{
+    background-image: url("../images/0.jpg");
+    background-attachment:fixed;
+    background-size: 100%;
+    font: 14px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+    height: 100%;
+    width: 100%;
+}
 
 .m-padded-mini {
     padding: 0.2em !important;

@@ -2,24 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73706714-e374-4ec3-a9e1-f46d67f20847" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/信息.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/分类+标签.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/我的发布.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/文章详情.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/登录.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/管理员.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Screenshot/首页.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.log.2020-05-01.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.log.2020-05-02.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.log.2020-05-03.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.log.2020-05-04.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/me.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/me.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/my.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/typo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/typo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/aritcles.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/aritcles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/xylt.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/me.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/me.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/my.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/typo.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/typo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/aritcles.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/aritcles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/xylt$XyltApplication.ic" NAME="XyltApplication Coverage Results" MODIFIED="1592059226055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -52,39 +74,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>toc.button</find>
-      <find>userEmail</find>
-      <find>toolbar</find>
-      <find>form</find>
       <find>id</find>
       <find>show</find>
       <find>aritcleShow</find>
@@ -111,6 +114,10 @@
       <find>adminComment</find>
       <find>teal</find>
       <find>#comment-container</find>
+      <find>jque</find>
+      <find>jquer</find>
+      <find>BJ.jpg</find>
+      <find>mo</find>
     </findStrings>
     <replaceStrings>
       <replace>aritcles</replace>
@@ -124,14 +131,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response3.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/domain/Type.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/service/Impl/TypeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/domain/Tag.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/TagShowController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/service/Impl/TagServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/Repository/TagRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/IndexController.java" />
@@ -148,19 +153,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/service/Impl/CommentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/domain/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/CommentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/admin/AritcleController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/aritcle-input.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/types.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/tags.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/search.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/myAritcle.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/aritcle.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/regist.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/aritcles.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" />
@@ -173,11 +173,21 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/error/404.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/me.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/interceptor/WebConfig.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/1`.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/typo.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/animate.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/my.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/me.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/admin/AritcleController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/aritcles.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
       </list>
     </option>
   </component>
@@ -217,19 +227,21 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="681" />
-    <option name="y" value="21" />
-    <option name="width" value="1195" />
-    <option name="height" value="1004" />
+    <option name="x" value="-5" />
+    <option name="width" value="1240" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
       <hideEmptyPackages ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,68 +249,10 @@
               <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
               <item name="xylt" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xylt" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xylt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xylt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xylt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xylt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xylt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xylt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="Screenshot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xylt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xylt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,7 +264,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588688705795" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592383967430" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -323,12 +277,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEADemo\xylt\src\main\resources\static\images" />
-      <recent name="E:\IDEADemo\xylt\src\main\resources\templates" />
-      <recent name="E:\IDEADemo\xylt\src\main\resources\static\lib\tocbot" />
-      <recent name="E:\IDEADemo\xylt\src\main\resources\static\lib\waypoints" />
-      <recent name="E:\IDEADemo\xylt\src\main\resources\templates\admin" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEADemo\xylt\src\main\resources" />
+      <recent name="E:\IDEADemo\xylt\src\main\java\com\lzx\xylt" />
+      <recent name="E:\IDEADemo\xylt\src\main\java\com\lzx" />
+      <recent name="E:\IDEADemo\xylt\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lzx.xylt.domain" />
@@ -337,12 +290,47 @@
       <recent name="com.lzx.xylt.web" />
       <recent name="com.lzx.xylt" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IDEADemo\xylt\src\main\resources" />
-      <recent name="E:\IDEADemo\xylt\src\main\java\com\lzx\xylt" />
-      <recent name="E:\IDEADemo\xylt\src\main\java\com\lzx" />
-      <recent name="E:\IDEADemo\xylt\src\main\java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEADemo\xylt\src\main\resources\static\images" />
+      <recent name="E:\IDEADemo\xylt\src\main\resources\static\lib" />
+      <recent name="E:\IDEADemo\xylt\src\main\resources\static\css" />
+      <recent name="E:\IDEADemo\xylt\src\main\resources\templates" />
+      <recent name="E:\IDEADemo\xylt\src\main\resources\static\lib\tocbot" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -386,12 +374,25 @@
       <workItem from="1588559282879" duration="40211000" />
       <workItem from="1588656160939" duration="6647000" />
       <workItem from="1588687076934" duration="1619000" />
-      <workItem from="1588688833552" duration="373000" />
+      <workItem from="1588688833552" duration="742000" />
+      <workItem from="1588830073314" duration="899000" />
+      <workItem from="1589282095440" duration="24000" />
+      <workItem from="1590392220102" duration="51000" />
+      <workItem from="1592050285810" duration="8126000" />
+      <workItem from="1592058504540" duration="784000" />
+      <workItem from="1592059314812" duration="2549000" />
+      <workItem from="1592063447314" duration="829000" />
+      <workItem from="1592109694705" duration="10212000" />
+      <workItem from="1592383024097" duration="857000" />
+      <workItem from="1592384022641" duration="755000" />
+      <workItem from="1592393246725" duration="255000" />
+      <workItem from="1592393546352" duration="2209000" />
+      <workItem from="1592463785856" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150566000" />
+    <option name="totallyTimeSpent" value="178565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,9 +405,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31099194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -416,20 +416,22 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32390383" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.23880596" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.4490085" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32857144" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32577905" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50402147" side_tool="true" weight="0.27157003" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49893618" weight="0.30597016" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32985073" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50402147" side_tool="true" weight="0.27053824" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49893618" weight="0.29461756" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3286119" />
+      <window_info anchor="bottom" id="REST Client" order="16" weight="0.5736544" />
+      <window_info anchor="bottom" id="JProfiler" order="17" weight="0.5708215" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24832962" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -437,310 +439,235 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
       <window_info anchor="right" id="Maven" order="6" weight="0.32841823" />
-      <window_info anchor="right" id="Database" order="7" weight="0.31903484" />
+      <window_info anchor="right" id="Database" order="7" weight="0.5093834" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/myAritcle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="39" selection-start-line="39" selection-end-line="41" selection-end-column="66" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/aritcle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="162" column="30" selection-start-line="162" selection-start-column="30" selection-end-line="162" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/regist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/aritcles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="116" column="83" selection-start-line="116" selection-start-column="83" selection-end-line="116" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="60" column="85" selection-start-line="60" selection-start-column="85" selection-end-line="60" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/type-input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="56" selection-start-line="56" selection-end-line="58" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-492">
-          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/aritcleShow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="150" column="78" selection-start-line="150" selection-start-column="78" selection-end-line="150" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" selection-start-line="32" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="138" selection-start-line="138" selection-end-line="140" selection-end-column="9" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="110" selection-start-line="12" selection-start-column="110" selection-end-line="12" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/505.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="12" column="110" selection-start-line="12" selection-start-column="110" selection-end-line="12" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_fragments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" selection-start-line="66" selection-end-line="73" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/abj.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/bg.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/me.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/me.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/test1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/wechat.jpg" />
-    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_admin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_comment">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_aritcle_tags">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/BJ.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/user1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/user4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/user3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/user2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/touxiang.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/test2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/moren.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/gugu.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/back.png">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/a.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/gugu.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/test2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/touxiang.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/test1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/user2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/user3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/1.jpg">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/back.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/handler/ControllerExceptionalHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/handler/ControllerExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/typo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/interceptor/LoginInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/my.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="156">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/interceptor/WebConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/1`.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/me.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <caret line="15" column="129" selection-start-line="15" selection-start-column="129" selection-end-line="15" selection-end-column="129" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_aritcle">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/Screenshot/信息.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/aritcles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="82" column="86" selection-start-line="82" selection-start-column="86" selection-end-line="82" selection-end-column="86" />
         </state>
       </provider>
     </entry>
+    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_aritcle_tags.sql" />
+    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_user" />
+    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_type" />
+    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_aritcle_tags" />
+    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_tag" />
+    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_comment" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/domain/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_fragments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/AritcleShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="80" column="5" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="106" selection-start-line="106" selection-end-line="146" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/admin/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="51" column="5" selection-start-line="25" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/admin/AritcleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_admin" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/admin/AdminUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/admin/TypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="108" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="108" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/admin/TagController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="101" column="5" selection-start-line="29" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/TypeShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" selection-start-line="28" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzx/xylt/web/TagShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" selection-start-line="28" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c65160fb-1e94-4348-92cc-357c96f6afe8/schema/xylt/table/t_aritcle" />
   </component>
   <component name="masterDetails">
     <states>
